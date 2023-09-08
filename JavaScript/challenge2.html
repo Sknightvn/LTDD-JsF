@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge 1</title>
+    <title>Challenge 2</title>
 </head>
-
 <body>
     <script>
-        //data 1
         var weightMark1 = 78;
         var heightMark1 = 1.69;
 
@@ -21,12 +18,12 @@
 
         var markHigherBMI1 = bmiMark1 > bmiJohn1;
 
-        console.log("Data 1:");
-        console.log("Mark's BMI:", bmiMark1);
-        console.log("John's BMI:", bmiJohn1);
-        console.log("Is Mark's BMI higher than John's? ", markHigherBMI1);
+        if (markHigherBMI1) {
+            console.log(`Mark's BMI (${bmiMark1.toFixed(1)}) is higher than John's (${bmiJohn1.toFixed(1)})!`);
+        } else {
+            console.log(`John's BMI (${bmiJohn1.toFixed(1)}) is higher than Mark's (${bmiMark1.toFixed(1)})!`);
+        }
 
-        // Data 2
         var weightMark2 = 95;
         var heightMark2 = 1.88;
 
@@ -38,11 +35,11 @@
 
         let markHigherBMI2 = bmiMark2 > bmiJohn2;
 
-        console.log("\nData 2:");
-        console.log("Mark's BMI:", bmiMark2);
-        console.log("John's BMI:", bmiJohn2);
-        console.log("Is Mark's BMI higher than John's? ", markHigherBMI2);
+        if (markHigherBMI2) {
+            console.log(`Mark's BMI (${bmiMark2.toFixed(1)}) is higher than John's (${bmiJohn2.toFixed(1)})!`);
+        } else {
+            console.log(`John's BMI (${bmiJohn2.toFixed(1)}) is higher than Mark's (${bmiMark2.toFixed(1)})!`);
+        }
     </script>
 </body>
-
 </html>
